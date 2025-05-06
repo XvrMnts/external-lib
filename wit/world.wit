@@ -1,0 +1,9 @@
+package component:external-lib@0.1.0;
+
+interface duplicate {
+    dupstring: func(name: string) -> string;
+}
+
+world external {
+    export duplicate;
+}
